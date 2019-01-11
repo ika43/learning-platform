@@ -1,0 +1,17 @@
+{
+  "name": "learning-service-spartans",
+  "version": "1.0.0",
+  "description": "Learning platform for spartans developers",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10",
+    "validator": "^10.10.0"
+  },
+  "scripts": {
+    "deploy": "rm -rf node_modules/ && npm install",
+    "offline": "npm install serverless-offline"
+  },
+  "author": "Ivan Laba",
+  "license": "ISC"
+}
